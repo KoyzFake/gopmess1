@@ -412,7 +412,7 @@ def nhay_mess():
         print(colored(f"  Đã khởi động bot cho: {data['name']}", 'green'))
         time.sleep(0.5)
     
-    print(pastel(173, 216, 230, "\n☘️ 𝘊𝘵𝘦𝘝𝘤𝘭 𝘍𝘰𝘳𝘦𝘷𝘦𝘳"))
+    print(pastel(173, 216, 230, "\n☘️ Đỗ Tiến Đạt 𝘍𝘰𝘳𝘦𝘷𝘦𝘳"))
     print(colored("=== 🚀 BẮT ĐẦU TRIỂN KHAI SPAM ===", 'green', attrs=['bold']))
     if tag_ids:
         print(colored(f"⚡ Chế độ: SPAM với TAG ({len(tag_ids)} người được tag)", 'yellow', attrs=['bold']))
