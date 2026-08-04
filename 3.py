@@ -34,11 +34,11 @@ def banner():
     ascii_banner = pyfiglet.figlet_format("   Mdung", font="slant")
     print(colored(ascii_banner, 'cyan', attrs=['bold']))
     print("=" * 60)
-    print(colored("       Tool Nuôi Facebook Treo Card Đa Cookie By Mdung 🧸", 'white', attrs=['bold']))
+    print(colored("       Tool Nuôi Facebook Treo Card Đa Cookie By Đỗ Tiến Đạt 🧸", 'white', attrs=['bold']))
     print("=" * 60)
     print(colored("➩ Telegram: https://t.me/ctevclwar", 'green'))
-    print(colored("➩ FaceBook 1: https://www.facebook.com/daikafi5", 'green'))
-    print(colored("➩ FaceBook 2: https://www.facebook.com/profile.php?id=61570431072611", 'green'))
+    print(colored("➩ ZALO CHÍNH 1: 0904942608", 'green'))
+    print(colored("➩ ZALO PHỤ 2: 0966193667", 'green'))
     print("=" * 60)
 
 def doi_giay(value):
