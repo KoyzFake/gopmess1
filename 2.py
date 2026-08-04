@@ -93,7 +93,7 @@ def print_banner():
 ⣉⠛⠛⠛⣁⡔⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠥⠀⠀
 ⣭⣏⣭⣭⣥⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢠
 
-     COPYRIGHT BY MẠNH DŨNG                       
+     COPYRIGHT BY ĐỖ TIẾN ĐẠT                       
 """
     print_gradient(banner)
 
