@@ -13,7 +13,7 @@ from zlapi.models import Mention, MultiMention, MessageStyle, MultiMsgStyle
 
 def show_banner():
     os.system('cls' if os.name == 'nt' else 'clear')
-    banner = figlet_format("datk w hy hoang", font="slant")
+    banner = figlet_format("datk", font="slant")
     print(banner)
     print("Tool Spam pool by datk".center(60))
     print("=" * 60)
