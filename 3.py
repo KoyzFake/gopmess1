@@ -31,7 +31,7 @@ def clear():
 
 def banner():
     clear()
-    ascii_banner = pyfiglet.figlet_format("   Mdung", font="slant")
+    ascii_banner = pyfiglet.figlet_format("   Datk", font="slant")
     print(colored(ascii_banner, 'cyan', attrs=['bold']))
     print("=" * 60)
     print(colored("       Tool Nuôi Facebook Treo Card Đa Cookie By Đỗ Tiến Đạt 🧸", 'white', attrs=['bold']))
