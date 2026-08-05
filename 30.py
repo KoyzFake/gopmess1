@@ -79,12 +79,12 @@ loop = 0
 user = []
 account_count = 0
 
-sys.stdout.write('\x1b]2;𓆩【PHAM VU NGUYEN ANH】𓆪 \x07')
+sys.stdout.write('\x1b]2;𓆩【DO TIEN DAT】𓆪 \x07')
 
 def ____banner____():
     os.system('cls' if os.name == 'nt' else 'clear')
     thoi_gian_hien_tai = datetime.now().strftime('%d/%m/%Y %H:%M:%S')
-    banner_text = ''' bố PHẠM VŨ NGUYÊN ANH
+    banner_text = ''' bố Đỗ Tiến Đạt
 '''
     
     print(Colorate.Horizontal(Colors.green_to_blue, banner_text))
