@@ -23,7 +23,7 @@ def clear_screen():
 def menu():
     clear_screen()
 
-    banner = pyfiglet.figlet_format("TRUONGVOKY", font="slant")
+    banner = pyfiglet.figlet_format("DATK", font="slant")
     print("\033[1;92m" + banner + "\033[0m")  
 
     print("\033[1;35m┌────────────────────────────────────────────┐")
