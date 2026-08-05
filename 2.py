@@ -448,7 +448,7 @@ class Messenger:
         try:
             self.mqtt_manager = MQTTManager(self.cookie, self.user_id)
             if self.mqtt_manager.connect():
-                print_color("✅ Mdung HotWar", "success")
+                print_color("✅ Datk HotWar", "success")
                 return True
             else:
                 print_color("⚠️ Không thể kết nối MQTT, sẽ sử dụng phương thức gửi thông thường", "warning")
@@ -802,7 +802,7 @@ def start_multiple_accounts():
     # Hiển thị banner
     print_banner()
     
-    print_header("𝙏𝙤𝙤𝙡 𝘽𝙮 𝙈𝙙𝙪𝙣𝙜 🧸")
+    print_header("Tool By Đỗ Tiến Đạt (Datk)")
     
     try:
         num_accounts = int(input(gradient_text("💠 Nhập số lượng acc muốn chạy: ", [(0,255,0), (0,0,255)])))
