@@ -40,7 +40,7 @@ def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def banner():
-    ascii_banner = pyfiglet.figlet_format("  Namanh", font="slant")
+    ascii_banner = pyfiglet.figlet_format("  Datk", font="slant")
     print(colored(ascii_banner, 'cyan', attrs=['bold']))
     print("=" * 60)
     print(colored("       Tool treo sớ đa cookie by Đỗ Tiến Đạt 🧸", 'white', attrs=['bold']))
