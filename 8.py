@@ -46,14 +46,14 @@ def print_colorful_box():
 
     reset = "\033[0m"
 
-    banner = pyfiglet.figlet_format("  NamAnh", font="slant")
+    banner = pyfiglet.figlet_format("  Datk", font="slant")
     text = banner + "       Tool Treo Mess Đa Cookie By Đỗ Tiến Đạt 🧸\n" + "-" * 55
 
     length = sum(1 for ch in text if ch.strip() != "")
     out, i = "", 0
 
     for ch in text:
-        if ch.strip() != "":web
+        if ch.strip() != "":
             ratio = i / length
             r = int(start_rgb[0] + (end_rgb[0] - start_rgb[0]) * ratio)
             g = int(start_rgb[1] + (end_rgb[1] - start_rgb[1]) * ratio)
